@@ -9,7 +9,7 @@ export const Landing = () => {
   const [coin, setCoin] = useState(() => {
     const saved = localStorage.getItem("coin");
     // Start with a larger amount to be able to afford players
-    return saved ? parseInt(saved, 10) : 10000000;
+    return saved ? parseInt(saved, 10) : 100000;
   });
 
   useEffect(() => {

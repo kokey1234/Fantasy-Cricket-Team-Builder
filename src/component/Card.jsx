@@ -41,7 +41,7 @@ const Card = ({ player, onSelectPlayer, isSelected }) => {
       </div>
 
       <button
-        onClick={handleSelect} // Use the new handler
+        onClick={handleSelect}
         disabled={isSelected}
         className={`w-full py-2.5 px-4 rounded-lg text-white font-semibold transition-transform duration-200 ${
           isSelected
