@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Viral Kohli",
+    "country": "India",
+    "role": "All-Rounder",
+    "rating": 85,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1500000
+  },
+  {
+    "name": "Darrell Steward",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 78,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1200000
+  },
+  {
+    "name": "James Smith",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": 90,
+    "batting_style": "Right-Hand-Bat",
+    "price": 2000000
+  },
+  {
+    "name": "Liam Johnson",
+    "country": "England",
+    "role": "Wicket-Keeper",
+    "rating": 82,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1800000
+  },
+  {
+    "name": "Mohammed Ali",
+    "country": "Pakistan",
+    "role": "All-Rounder",
+    "rating": 75,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1300000
+  },
+  {
+    "name": "Carlos Brathwaite",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 80,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1600000
+  },
+  {
+    "name": "Ravi Shastri",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 88,
+    "batting_style": "Left-Hand-Bat",
+    "price": 1700000
+  },
+  {
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 92,
+    "batting_style": "Left-Hand-Bat",
+    "price": 2200000
+  },
+  {
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 89,
+    "batting_style": "Right-Hand-Bat",
+    "price": 2100000
+  },
+  {
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 87,
+    "batting_style": "Left-Hand-Bat",
+    "price": 2000000
+  },
+  {
+    "name": "Shane Watson",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "rating": 84,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1750000
+  },
+  {
+    "name": "Virat Singh",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 76,
+    "batting_style": "Right-Hand-Bat",
+    "price": 1400000
+  }
+]
