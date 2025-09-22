@@ -17,7 +17,7 @@ const Card = ({ player, onSelectPlayer, isSelected }) => {
   return (
     // 4. Add a hover animation to the entire card
     <motion.div
-      className="border border-slate-700 rounded-lg p-4 shadow-lg bg-slate-800 flex flex-col justify-between text-slate-300 h-full"
+      className="border mx-8 border-slate-700 rounded-lg p-4 shadow-lg bg-slate-800 flex flex-col justify-between text-slate-300 h-full"
       whileHover={{ scale: 1.03, y: -5 }} // Card lifts up and grows slightly on hover
       transition={{ type: 'spring', stiffness: 300 }}
     >
