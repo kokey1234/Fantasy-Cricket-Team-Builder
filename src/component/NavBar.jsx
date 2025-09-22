@@ -30,7 +30,7 @@ export const NavBar = ({ coin }) => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeInOut" }}
       // REMOVED mx-14, ensuring it's full-width
-      className="w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 shadow-sm fixed top-0 left-0 z-50"
+      className="w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 shadow-sm fixed top-0 left-0 z-100"
     >
       {/* This inner container aligns the content with your Hero section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

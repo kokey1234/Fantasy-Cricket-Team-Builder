@@ -26,7 +26,7 @@ export const Hero = ({ coin, setCoin }) => {
       style={{ backgroundImage: `url(${banner})` }}
       aria-label="Hero banner"
     >
-      <div className="absolute inset-0 bg-black/30 dark:bg-black/40 pointer-events-none" />
+      <div className="absolute inset-0 bg-black/50 dark:bg-black/60 pointer-events-none" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         <div className="flex flex-col items-center text-center gap-3 sm:gap-4">
@@ -52,7 +52,7 @@ export const Hero = ({ coin, setCoin }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-sm sm:text-base md:text-lg text-white/90 mt-1"
+            className="text-2xl sm:text-base md:text-lg font-bold text-white/90 mt-1"
           >
             Beyond Boundaries · Beyond Limits
           </motion.h4>
