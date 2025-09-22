@@ -3,6 +3,7 @@ import { NavBar } from "../component/NavBar";
 import { Hero } from "../component/Hero";
 import { Players } from "../component/Players";
 import Footer from "../component/Footer";
+import { ToastContainer } from 'react-toastify';
 
 export const Landing = () => {
   const [coin, setCoin] = useState(() => {
@@ -13,10 +14,24 @@ export const Landing = () => {
 
   useEffect(() => {
     localStorage.setItem("coin", coin.toString());
-  }, [coin]); 
+  }, [coin]);
 
   return (
     <div className="mx-7 my-3">
+      {/* Tostify Here */}
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
+
       <NavBar coin={coin}></NavBar>
       <Hero coin={coin} setCoin={setCoin}></Hero>
       {/* Pass coin and setCoin down to Players */}

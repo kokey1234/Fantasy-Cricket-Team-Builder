@@ -1,6 +1,9 @@
+// src/component/Players.jsx
+
 import React, { useState, useEffect } from "react";
 import { Available } from "./Available";
 import { Selected } from "./Selected";
+import { toast } from "react-toastify"; // 1. Import toast
 
 export const Players = ({ coin, setCoin }) => {
   const [activeTab, setActiveTab] = useState("available");
@@ -15,30 +18,28 @@ export const Players = ({ coin, setCoin }) => {
   }, [selectedPlayers]);
 
   const handleSelectPlayer = (player) => {
-    // ... no changes to this function
+    // 2. Replace all alerts with toasts
     if (selectedPlayers.length >= 6) {
-      alert("Your team is full! You cannot select more than 6 players.");
+      toast.error("Your team is full! You cannot select more than 6 players.");
       return;
     }
     if (selectedPlayers.find((p) => p.name === player.name)) {
-      alert(`${player.name} is already in your team.`);
+      toast.warn(`${player.name} is already in your team.`);
       return;
     }
     if (coin < player.price) {
-      alert("Insufficient coins! You cannot afford this player.");
+      toast.error("Insufficient credits! You cannot afford this player.");
       return;
     }
     setCoin((prevCoin) => prevCoin - player.price);
     setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
-    alert(`${player.name} has been added to your team!`);
+    toast.success(`${player.name} has been added to your team!`);
   };
 
-  // --- NEW FUNCTION TO REMOVE A PLAYER ---
   const handleRemovePlayer = (playerToRemove) => {
-    // Add the player's price back to the coin balance
+    // 3. (Bonus) Add a toast for removing a player as well
+    toast.error(`${playerToRemove.name} was removed from your team.`);
     setCoin((prevCoin) => prevCoin + playerToRemove.price);
-
-    // Remove the player from the selected list by filtering
     setSelectedPlayers((prevPlayers) =>
       prevPlayers.filter((p) => p.name !== playerToRemove.name)
     );
@@ -80,7 +81,6 @@ export const Players = ({ coin, setCoin }) => {
             selectedPlayers={selectedPlayers}
           />
         ) : (
-          // --- PASS THE NEW FUNCTIONS AS PROPS ---
           <Selected
             selectedPlayers={selectedPlayers}
             onRemovePlayer={handleRemovePlayer}

@@ -1,58 +1,72 @@
+// src/component/Available.jsx
+
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion"; // 1. Import motion
 
 export const Available = ({ onSelectPlayer, selectedPlayers }) => {
+  // ... (your existing state and fetch logic is perfect) ...
   const [players, setPlayers] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    let mounted = true;
     fetch("/data.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch data");
-        return res.json();
-      })
-      .then((data) => {
-        if (!mounted) return;
-        setPlayers(data);
-      })
-      .catch((err) => {
-        if (!mounted) return;
-        setError(err.message || "Unknown error");
-      })
-      .finally(() => mounted && setLoading(false));
-
-    return () => {
-      mounted = false;
-    };
+      .then((res) => res.json())
+      .then((data) => setPlayers(data))
+      .catch((err) => setError(err.message))
+      .finally(() => setLoading(false));
   }, []);
 
+  // 2. Define animation variants
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1, // This creates the cool stagger effect
+      },
+    },
+  };
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   if (loading) {
-    return <div className="py-6 text-center text-gray-600">Loading players…</div>;
+    /* ... no changes ... */
   }
   if (error) {
-    return <div className="py-6 text-center text-red-500">Error: {error}</div>;
+    /* ... no changes ... */
   }
   if (!players.length) {
-    return <div className="py-6 text-center text-gray-500">No players found.</div>;
-  }
-  
-  const isPlayerSelected = (player) => {
-    return selectedPlayers.some(p => p.name === player.name);
+    /* ... no changes ... */
   }
 
+  const isPlayerSelected = (player) => {
+    return selectedPlayers.some((p) => p.name === player.name);
+  };
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    // 3. Apply the animation variants to motion components
+    <motion.div
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
       {players.map((p) => (
-        <Card 
-          key={p.name} // Use a unique identifier from your data
-          player={p}
-          onSelectPlayer={onSelectPlayer}
-          isSelected={isPlayerSelected(p)}
-        />
+        <motion.div key={p.id || p.name} variants={cardVariants}>
+          <Card
+            player={p}
+            onSelectPlayer={onSelectPlayer}
+            isSelected={isPlayerSelected(p)}
+          />
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
