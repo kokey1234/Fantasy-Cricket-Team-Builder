@@ -1,7 +1,7 @@
 # Select Your XI - A Fantasy Cricket Team Builder 🏏
 A dynamic web application that allows cricket enthusiasts to build their own fantasy cricket team. Users can browse a list of international players, select their favorite ones while managing a virtual budget, and assemble their dream team.
 
-### 🔗 **Live Demo:** [https://md8-habibullah.github.io/B10A7-Select-Your-XI/](https://md8-habibullah.github.io/B10A7-Select-Your-XI/)
+### 🔗 **Live Demo:** [https://fantasy-cricket-team-builder.vercel.app/](https://fantasy-cricket-team-builder.vercel.app/)
 
 ---
 
