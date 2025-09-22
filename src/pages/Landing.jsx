@@ -13,7 +13,7 @@ export const Landing = () => {
 
   useEffect(() => {
     localStorage.setItem("coin", coin.toString());
-  }, [coin]);
+  }, [coin]); 
 
   return (
     <div className="mx-7 my-3">
