@@ -33,7 +33,7 @@ export const Players = ({ coin, setCoin }) => {
     }
     setCoin((prevCoin) => prevCoin - player.price);
     setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
-    // toast.success(`${player.name} has been added to your team!`);
+    toast.success(`${player.name} has been added to your team!`);
   };
 
   const handleRemovePlayer = (playerToRemove) => {

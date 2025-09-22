@@ -4,8 +4,6 @@ import React from 'react';
 // 1. Import motion for hover animations
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-// 2. Import toast for notifications
-import { toast } from 'react-toastify';
 
 const Card = ({ player, onSelectPlayer, isSelected }) => {
   const { name, country, role, rating, batting_style, price } = player;
@@ -13,9 +11,6 @@ const Card = ({ player, onSelectPlayer, isSelected }) => {
 
   // 3. Create a handler to show toast before selecting
   const handleSelect = () => {
-    if (!isSelected) {
-      toast.success(`${name} selected!`);
-    }
     onSelectPlayer(player);
   };
 
