@@ -55,11 +55,11 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/md8-habibullah/B10A7-Select-Your-XI.git](https://github.com/md8-habibullah/B10A7-Select-Your-XI.git)
+    git clone [https://github.com/md8-habibullah/Fantasy-Cricket-Team-Builder.git](https://github.com/md8-habibullah/Fantasy-Cricket-Team-Builder.git)
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd B10A7-Select-Your-XI
+    cd Fantasy-Cricket-Team-Builder
     ```
 3.  **Install NPM packages:**
     ```sh
