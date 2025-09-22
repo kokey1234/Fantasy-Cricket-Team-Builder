@@ -5,7 +5,7 @@ A dynamic web application that allows cricket enthusiasts to build their own fan
 
 ---
 
-## 📸 Application Preview
+## Application Preview
 
 
 
@@ -13,7 +13,7 @@ A dynamic web application that allows cricket enthusiasts to build their own fan
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 This project showcases a variety of features designed for a seamless user experience:
 
@@ -28,7 +28,7 @@ This project showcases a variety of features designed for a seamless user experi
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 This project was built using the following technologies:
 
@@ -39,7 +39,7 @@ This project was built using the following technologies:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
@@ -55,7 +55,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/md8-habibullah/Fantasy-Cricket-Team-Builder.git](https://github.com/md8-habibullah/Fantasy-Cricket-Team-Builder.git)
+    git clone https://github.com/md8-habibullah/Fantasy-Cricket-Team-Builder.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -73,13 +73,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 ---
 
-## 📜 License
-
-This project is distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-## 👤 Author
+## Author
 
 **MD Habibullah**
 
