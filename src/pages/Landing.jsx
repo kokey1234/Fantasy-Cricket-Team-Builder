@@ -38,7 +38,7 @@ export const Landing = () => {
 
       {/* Add a 'main' content wrapper with the desired margins and padding */}
       {/* We add pt-20 here to push content down below the fixed navbar */}
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-4 pt-16">
+      <main className="mx-auto px-4 sm:px-6 lg:px-4 pt-16">
         <Hero coin={coin} setCoin={setCoin} />
         <Players coin={coin} setCoin={setCoin} />
       </main>
